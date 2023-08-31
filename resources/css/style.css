@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+  width: 50px;
+}
+body{
+  background-image: url('/resources/images/protruding-squares.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px ;
+  height: 15vh;
+  background-color: aliceblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0.2);
+}
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+ul{
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  font-weight: 550;
+}
+a:hover{
+  text-decoration: underline;
+  transition: 1s;
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 83vh;
+}
+.description{
+  max-width: 500px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.image{
+  width: 400px;
+}
+h1{
+  font-size: 45px;
+  color: rgb(10, 67, 225);
+  text-shadow: rgb(221, 157, 39) 0.5px 0.5px 0.5px;
+}
+.pri_btn{
+  padding: 15px 70px;
+  background-color: rgba(0, 132, 255, 0.728);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn{
+  background-color: rgba(0, 132, 255, 0.728);
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: blue;
+}
